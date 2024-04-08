@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+
+<div class="container mt-5">
+  <button id="toggleButton" class="btn btn-primary" onclick="toggleFunction()">Start</button>
+  <div id="result"></div>
+  <button id="toggleSummaryButton" class="btn btn-secondary mt-3" onclick="toggleSummary()">Show Summary</button>
+  <div id="summary" style="display: none;"></div>
+  <canvas id="myChart" width="400" height="400"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
